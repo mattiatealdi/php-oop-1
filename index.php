@@ -5,8 +5,6 @@
   $matrix = new Movie("Matrix", 2000);
   $interstellar = new Movie("Interstellar", 2015);
 
-
-  var_dump($interstellar);
 ?>
 
 <!DOCTYPE html>
@@ -20,6 +18,8 @@
 <body>
     
     <h1><?php echo $avengers->getInfo()?></h1>
+    <h1><?php echo $matrix->getInfo()?></h1>
+    <h1><?php echo $interstellar->getInfo()?></h1>
 
 
 
